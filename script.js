@@ -18,7 +18,7 @@ function resetTimer() {
 function updateTimer() {
   totalSeconds++;
 
-  if (totalSeconds % (1 * 60) === 0) {
+  if (totalSeconds % (20 * 60) === 0) {
     restMode = !restMode;
     playBeep();
   }
